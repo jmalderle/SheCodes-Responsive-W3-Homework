@@ -94,3 +94,29 @@ h1.about-heading {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 376px) {
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h2 {
+    font-size: 29px !important;
+  }
+
+  h3 {
+    font-size: 19px !important;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  img {
+    display: none;
+  }
+}
