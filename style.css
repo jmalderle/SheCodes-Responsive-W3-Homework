@@ -95,9 +95,9 @@ h1.about-heading {
   text-decoration: underline;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
   h1 {
-    font-size: 40px !important;
+    font-size: 69px !important;
   }
 
   h2 {
@@ -106,6 +106,7 @@ h1.about-heading {
 
   h3 {
     font-size: 19px !important;
+    margin-top: 20px;
   }
 
   p {
@@ -116,7 +117,46 @@ h1.about-heading {
     font-size: 14px;
   }
 
-  img {
+  .special-margins {
+    margin-bottom: 0 !important;
+  }
+
+  #app-picture {
     display: none;
+  }
+
+  #app-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .app-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  #app-text p {
+    text-align: center !important;
+    margin-bottom: 0 !important;
+  }
+
+  .project.contact-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .container {
+    margin-bottom: 60px;
+  }
+
+  .about-page-intro,
+  .about-paragraphs.mobile {
+    padding: 0 10px 0 10px !important;
+  }
+
+  #contact {
+    margin-bottom: 60px;
   }
 }
